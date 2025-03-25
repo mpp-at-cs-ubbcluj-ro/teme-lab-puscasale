@@ -80,3 +80,21 @@
 11 Mar 2025 19:17:35,576 TRACE org.example.JdbcUtils 48 getConnection - Enter
 11 Mar 2025 19:17:35,576 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51e69659)
 11 Mar 2025 19:17:35,577 TRACE org.example.CarsDBRepository 49 findByManufacturer - Exit with([Id=5 Dacia Model S 2019, Id=6 Dacia Model S 2019])
+25 Mar 2025 18:39:35,664 INFO  org.example.CarsDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Ale/Desktop/teme-lab-puscasale/module2/src/main/resources/cars.db} 
+25 Mar 2025 18:39:35,723 TRACE org.example.CarsDBRepository 83 add - Enter saving task Id=0 Dacia Model S 2019
+25 Mar 2025 18:39:35,723 TRACE org.example.JdbcUtils 48 getConnection - Enter
+25 Mar 2025 18:39:35,723 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+25 Mar 2025 18:39:35,723 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Ale/Desktop/teme-lab-puscasale/module2/src/main/resources/cars.db
+25 Mar 2025 18:39:35,723 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+25 Mar 2025 18:39:35,723 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+25 Mar 2025 18:39:35,977 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51e69659)
+25 Mar 2025 18:39:36,000 TRACE org.example.CarsDBRepository 90 add - Saved 1 instances
+25 Mar 2025 18:39:36,000 TRACE org.example.CarsDBRepository 95 add - Exit
+25 Mar 2025 18:39:36,000 TRACE org.example.CarsDBRepository 118 findAll - Enter
+25 Mar 2025 18:39:36,000 TRACE org.example.JdbcUtils 48 getConnection - Enter
+25 Mar 2025 18:39:36,003 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51e69659)
+25 Mar 2025 18:39:36,003 TRACE org.example.CarsDBRepository 137 findAll - Exit with([Id=1 Tesla Model S 2019, Id=2 Tesla Model S 2019, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Dacia Model S 2019, Id=6 Dacia Model S 2019, Id=7 Dacia Model S 2019])
+25 Mar 2025 18:39:36,003 TRACE org.example.CarsDBRepository 29 findByManufacturer - Enter Finding cars by manufacturer: Dacia
+25 Mar 2025 18:39:36,003 TRACE org.example.JdbcUtils 48 getConnection - Enter
+25 Mar 2025 18:39:36,007 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51e69659)
+25 Mar 2025 18:39:36,008 TRACE org.example.CarsDBRepository 49 findByManufacturer - Exit with([Id=5 Dacia Model S 2019, Id=6 Dacia Model S 2019, Id=7 Dacia Model S 2019])
